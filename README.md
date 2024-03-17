@@ -1,4 +1,4 @@
 # Tower Defense Game
 
-An Open-source Tower Defense Game made by @Nelertile and @LavaMagmo
+An Open-source Tower Defense Game made by [@Nelertile](https://github.com/Nelertile) and [@LavaMagmo](https://github.com/LavaMagmo)
 
