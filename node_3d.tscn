@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dc14mr3rtdb26"]
+
+[ext_resource type="ArrayMesh" uid="uid://ci5nik6x8ffyk" path="res://assets/model/grass.obj" id="1_urcaw"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.736156, 1.09696e-08, 0.676812, -0.210213, 0.950543, 0.228645, -0.643339, -0.310593, 0.699748, 3.2985, 12.0486, 20.073)
+light_color = Color(0.956863, 0.94902, 0.584314, 1)
+
+[node name="Grass" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.5771, 1.88645, -0.805601)
+mesh = ExtResource("1_urcaw")
